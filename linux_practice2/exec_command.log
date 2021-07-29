@@ -1,0 +1,300 @@
+   44  cd server_lesson/
+   45  ls
+   46  cd linux_practice/
+   47  ls
+   48  cd public/
+   49  ls
+   50  pwd
+   51  ls
+   52  cd /vagrant/server_lesson && ls
+   53  cd /vagrant/server_lesson/linux_practice/public
+   54  cp index.php index_bk.php
+   55  ls
+   56  cd ..
+   57  ls
+   58  cd ..
+   59  ls
+   60  pwd
+   61  git status
+   62  ls
+   63  git diff
+   64  git add .
+   65  git status
+   66  git commit -m "index_bk.phpまで作成"
+   67  git status
+   68  cd /vagrant/server_lesson/linux_practice
+   69  ks
+   70  ls
+   71  cp -r public tmp
+   72  ls
+   73  ls ./ public tmp
+   74  git status
+   75  git add .
+   76  git status
+   77  git commit -m "tmpディレクトリ追加"
+   78  git status
+   79  cd /vagrant
+   80  ls
+   81  mv server_lesson/linux_practice server_lesson/linux_practice1
+   82  cd server_lesson/
+   83  ls
+   84  cd /vagrant/
+   85  ls
+   86  cd server_lesson/
+   87  ls
+   88  cd /vagrant/
+   89  ls
+   90  pwd
+   91  mkdir linux_practice2 linux_practice3
+   92  ls
+   93  mv ./linux_practice2 ./server_lesson
+   94  ls
+   95  cd server_lesson/
+   96  ls
+   97  git status
+   98  git add .
+   99  git add.
+  100  git add .
+  101  git status
+  102  git commit "linux_practiceの移動"
+  103  git commit -m "linux_practiceの移動"
+  104  git status
+  105  git add
+  106  git status
+  107  git add -A
+  108  git status
+  109  git commit -m "linux_practiceの移動"
+  110  git status
+  111  cd /vagrant/server_lesson/linux_practice1/tmp/
+  112  ks
+  113  pwd
+  114  ls
+  115  rm *_bk.php
+  116  ls
+  117  cd /vagrant/
+  118  ls
+  119  cd server_lesson/
+  120  l
+  121  ls
+  122  cd /vagrant
+  123  ls
+  124  rm server_lesson/first.txt 
+  125  cd server_lesson/
+  126  ls
+  127  cd /va
+  128  cd /vagrant/
+  129  ls
+  130  rm -r linux_practice3
+  131  ls
+  132  ls server_lesson/
+  133  git status
+  134  cd server_lesson/
+  135  git status
+  136  git add -A
+  137  git commit -m "rmの実行"
+  138  git status
+  139  cd /vagrant/server_lesson
+  140  echo '# サーバレッスン' > README.md
+  141  ls
+  142  echo 'Linuxプラクティス' >> README.md
+  143  echo '-----------------' >> README.md
+  144  ls
+  145  cat README.md 
+  146  git add .
+  147  git status
+  148  git commit -m "READE.mdの追加"
+  149  ls
+  150  cd /vagrant/
+  151  ls
+  152  cd /vagrant/server_lesson
+  153  vi README.md 
+  154  cat README.md 
+  155  ls
+  156  ls ./ README.md linux_practice linux_practice2
+  157  ls ./ linux_practice linux_practice2
+  158  ls ./linux_practice linux_practice2
+  159  ls -R
+  160  git status
+  161  git add .
+  162  git commit -m "READ.md編集"
+  163  git status
+  164  got remote add origin https://github.com/KokiGoshima/server_lesson.git
+  165  git remote add origin https://github.com/KokiGoshima/server_lesson.git
+  166  git remote -v
+  167  git branvh
+  168  git branch
+  169  git push origin master
+  170  ls
+  171  cd linux_practice2
+  172  ls
+  173  git status
+  174  mkdir documents
+  175  ls
+  176  cd documents/
+  177  touch gizumo{01..50}.md
+  178  ls
+  179  git add .
+  180  git commit -m "課題2-1"
+  181  git status
+  182  git log
+  183  cd ..
+  184  ls
+  185  touch trach
+  186  ls
+  187  rm trach 
+  188  ls
+  189  mkdir trash
+  190  ls
+  191  cd trash/
+  192  cd ../documents/
+  193  ls
+  194  ls ../documents/
+  195  ls 
+  196  cd ..
+  197  ls
+  198  cd trash/
+  199  cd ..
+  200  mv documents/gizumo{20..40}.md trash/
+  201  cd documents/
+  202  ls
+  203  cd ..
+  204  ls
+  205  cd trash/
+  206  ls
+  207  git status
+  208  git add .
+  209  git status
+  210* history 
+  211* git commit -m "
+  212  git status
+  213  git add -A
+  214  history 10
+  215  git commit -m "課題2-2"
+  216  git status
+  217  git add -A
+  218  cd ..
+  219  ls
+  220  cd ..
+  221  ls
+  222  git add -A
+  223  git commit -m "課題2-2"
+  224  git status
+  225  git log
+  226  ls
+  227  git status
+  228  cd linux_practice
+  229  cd linux_practice2
+  230  ls
+  231  touch .gitignore
+  232  vi .gitignore 
+  233  cd ..
+  234  git status
+  235  ls
+  236  cd linux_practice
+  237  cd linux_practice2
+  238  ls
+  239  cd trash/
+  240  ls
+  241  pwd
+  242  cd ..
+  243  sl
+  244  ks
+  245  ls
+  246  cd ..
+  247  ls
+  248  cd ..
+  249  ls
+  250  cd
+  251  ls
+  252  cd /va
+  253  cd /vagrant/
+  254  ls
+  255  cd server_lesson/
+  256  ls
+  257  ls -a
+  258  cd linux_practice2
+  259  ls
+  260  ls -a
+  261  vi .gitignore 
+  262  git status
+  263  vi .gitignore 
+  264  git log
+  265  git add .
+  266  git commit -m "test"
+  267  git status
+  268  git reset --hard HEAD~
+  269  git log
+  270  git status
+  271  git log
+  272  git reset --mixed HEAD~ 
+  273  git status
+  274  git reset --mixed HEAD~ 
+  275  git status
+  276  git log
+  277  git status
+  278  ls
+  279  cd documents/
+  280  ls
+  281  cd ..
+  282  ls
+  283  cd trash/
+  284  ls
+  285  cd ..
+  286  ls
+  287  ls -a
+  288  touch .gitignore
+  289  vi .gitignore 
+  290  ls
+  291  cat .gitignore 
+  292  vi .gitignore 
+  293  cat .gitignore 
+  294  git status
+  295  vi .gitignore 
+  296  cat .gitignore 
+  297  git status
+  298  vi .gitignore 
+  299  cat .gitignore 
+  300  vi .gitignore 
+  301  cat .gitignore 
+  302  cd ..
+  303  pwd
+  304  git add -A
+  305  git status
+  306  git reset
+  307  git sttus
+  308  git status
+  309  ls
+  310  cd linux_practice2
+  311  ls
+  312  cd trash/
+  313  ls
+  314  git status
+  315* 
+  316  git status -all
+  317  git status all
+  318  git status
+  319  git status -uall
+  320  git status
+  321  git status -uall
+  322  cd ..
+  323  ls
+  324  ls -a
+  325  cat .gitignore 
+  326  vi .gitignore 
+  327  git status -uall
+  328  vi .gitignore 
+  329  git status -uall
+  330  vi .gitignore 
+  331  git status -uall
+  332  vi .gitignore 
+  333  git status -uall
+  334  cd ..
+  335  ls
+  336  git add -A
+  337  git commit -m "課題2-2.3.4"
+  338  git status
+  339  ls
+  340  cd linux_practice
+  341  cd linux_practice2
+  342  ls
+  343  history 300 > exec_command.log
